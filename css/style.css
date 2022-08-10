@@ -75,7 +75,7 @@
     position: relative;
 }
 
-.images-frame {
+#images-frame {
     width: 380px;
     height: 380px;
     background-image: url(../images/profile-img.jpg);
@@ -94,7 +94,7 @@
         height: 390px;
     }
 
-    .image-frame {
+    .images-frame {
         width: 300px;
         height: 300px;
         border: 6px solid #FFFFFF;
@@ -106,7 +106,7 @@
         height: 230px;
     }
 
-    .image-frame {
+    .images-frame {
         width: 200px;
         height: 200px;
         top: 40px;

@@ -75,7 +75,23 @@
     position: relative;
 }
 
-#images-frame {
+.image-circular{
+    border: 1px solid #000000;
+    /* width: 300px; */
+    /* background-image:url(../images/profile-img.jpg) ; */
+    overflow: hidden;
+    border-radius: 50%;
+    background-image: url(../images/profile-img.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 8px solid #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* .images-circular {
     width: 380px;
     height: 380px;
     background-image: url(../images/profile-img.jpg);
@@ -87,7 +103,7 @@
     top: 110px;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 
 @media (max-width: 768px) {
     .section-1 {
